@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header Section with Navbar -->
+    <header>
+        <div class="logo">
+            <h1>My Portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <!-- Image Section -->
+            <div class="about-image" data-aos="fade-right">
+                <img src="asset/about.jpg" profile" class="profile-img" />
+            </div>
+
+            <!-- Text Section -->
+            <div class="about-text" data-aos="fade-left">
+                <h2 class="about-title">About Me</h2>
+                <p class="about-description">
+                    I'm a passionate full-stack developer with expertise in building dynamic and responsive web
+                    applications. I specialize in JavaScript, React, Node.js, and various other technologies.
+                </p>
+                <p class="about-description mt-6">
+                    I love creating solutions that not only meet client needs but also offer a delightful user
+                    experience. Let's work together to build something great!
+                </p>
+
+                <!-- Skills Section -->
+                <div class="skills-section" data-aos="fade-up">
+                    <h3 class="skills-title">Skills</h3>
+                    <div class="skills-grid">
+                        <!-- Skill Cards -->
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon js">
+                                <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                            </div>
+                            <p class="skill-name">JavaScript</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon react">
+                                <i class="fab fa-react" style="color: #61dafb;"></i>
+                            </div>
+                            <p class="skill-name">React</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon nodejs">
+                                <i class="fab fa-node" style="color: #68a063;"></i>
+                            </div>
+                            <p class="skill-name">Node.js</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon html">
+                                <i class="fab fa-html5" style="color: #e34c26;"></i>
+                            </div>
+                            <p class="skill-name">HTML5</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon css">
+                                <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+                            </div>
+                            <p class="skill-name">CSS3</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon mongodb">
+                                <i class="fas fa-database" style="color: #47a248;"></i>
+                            </div>
+                            <p class="skill-name">MongoDB</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon github">
+                                <i class="fab fa-github" style="color: #333;"></i>
+                            </div>
+                            <p class="skill-name">Git & GitHub</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon api">
+                                <i class="fas fa-code" style="color: #ff5722;"></i>
+                            </div>
+                            <p class="skill-name">API Development</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon git">
+                                <i class="fab fa-git-alt" style="color: #f1502f;"></i>
+                            </div>
+                            <p class="skill-name">Git</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon npm">
+                                <i class="fab fa-npm" style="color: #cb3837;"></i>
+                            </div>
+                            <p class="skill-name">npm</p>
+                        </div>
+                        <div class="skill-card" data-aos="zoom-in">
+                            <div class="icon figma">
+                                <i class="fab fa-figma" style="color: #f24e1e;"></i>
+                            </div>
+                            <p class="skill-name">Figma</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <img src="asset/e-commerce.PNG" alt="E-Commerce Product Page">
+                    <h3>E-Commerce </h3>
+                    <p>
+                        An e-commerce platform built with MERN stack that allows users to browse products, add them to
+                        the
+                        cart, and checkout with Stripe integration.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech">MongoDB</span>
+                        <span class="tech">Express</span>
+                        <span class="tech">React</span>
+
+                    </div>
+                    <a href="https://github.com/edenteshu/AASHWAY/tree/main/project2" class="btn" target="_blank">View
+                        Project</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up">
+                    <img src="asset/taskmanagment.PNG" Task Management App">
+                    <h3>Task Management</h3>
+                    <p>
+                        A task management application to track your daily tasks and projects with features like
+                        reminders,
+                        deadlines, and priority settings.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech">Tailwind CSS</span>
+                        <span class="tech">Express</span>
+                        <span class="tech">MongoDB</span>
+                    </div>
+                    <a href="https://github.com/edenteshu/AASHWAY/tree/main/project1" class="btn" target="_blank">View
+                        Project</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up">
+                    <img src="asset/portifolio.png" alt="Portfolio Website">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A personal portfolio website showcasing my work, skills, and contact information. Features a
+                        responsive design, smooth animations, and a blog section to share articles and insights.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech">Express</span>
+                        <span class="tech">MongoDB</span>
+                        <span class="tech">React</span>
+
+                    </div>
+                    <a href="https://github.com/edenteshu/AASHWAY-project3" class="btn" target="_blank">View Project</a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-aos="fade-up">
+                    <img src="asset/coffeshope.jpg" alt="Coffee Shop">
+                    <h3>Coffee Shop</h3>
+                    <p>
+                        A modern coffee shop web application built using React, Tailwind CSS, Node.js, and MongoDB.
+                        Features
+                        include a responsive design, user authentication, menu display, order management, and a seamless
+                        checkout process.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech">React</span>
+                        <span class="tech">Express</span>
+                        <span class="tech">MongoDB</span>
+
+                    </div>
+                    <a href="https://github.com/edenteshu/Coffeehouse" class="btn" target="_blank">View Project</a>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-aos="fade-up">
+                    <img src="asset/netflix.jpg" alt="Netflix Clone">
+                    <h3>Netflix Clone</h3>
+                    <p>
+                        A fully responsive Netflix clone built using React, Tailwind CSS, and TMDB API. It features
+                        movie
+                        listings and search functionality. Built to provide a seamless viewing experience with support
+                        for
+                        personalized profiles and content recommendations.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech">React</span>
+                        <span class="tech">MySQL</span>
+                        <span class="tech">TMDB API</span>
+
+                    </div>
+                    <a href="https://github.com/edenteshu/Netflix-clone" class="btn" target="_blank">View Project</a>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-aos="fade-up">
+                    <img src="asset/apple.jpg" alt="Apple Website Clone">
+                    <h3>Apple Website Clone</h3>
+                    <p>
+                        A visually stunning clone of the Apple website built using modern web technologies. Features
+                        include
+                        a responsive design, product showcase, smooth animations, and a cart system that mimics the look
+                        and
+                        feel of the original Apple site.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech">React</span>
+                        <span class="tech">Express</span>
+                        <span class="tech">MySQL</span>
+                    </div>
+                    <a href="https://github.com/edenteshu/AppleWebsite" class="btn" target="_blank">View Project</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-20 text-rose-950" data-aos="fade-up">
+        <div class="container mx-auto px-6 text-center">
+            <!-- Contact Heading -->
+            <h2 class="text-5xl font-bold mb-12 text-rose-950">Contact Me</h2>
+
+            <!-- Contact Form -->
+            <form class="mx-auto max-w-xl">
+                <div class="form-group mb-6">
+                    <label for="name" class="block text-left font-medium">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required class="input-field" />
+                </div>
+
+                <div class="form-group mb-6">
+                    <label for="email" class="block text-left font-medium">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required class="input-field" />
+                </div>
+
+                <div class="form-group mb-6">
+                    <label for="message" class="block text-left font-medium">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required
+                        class="input-field"></textarea>
+                </div>
+
+                <button type="submit" class="btn-send-message">Send Message</button>
+            </form>
+
+            <!-- Social Links -->
+            <div class="social-links mt-8 flex justify-center gap-6">
+                <a href="https://github.com/edenteshu" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/Eden-Teshome" target="_blank" rel="noopener noreferrer"
+                    class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/amenteshuu" target="_blank" rel="noopener noreferrer"
+                    class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/+251952497916" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://t.me/edu_techn" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://x.com/@Utopiya7" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:edutesh2124@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="">
+            Built using HTML and CSS.
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            document.getElementById('form-success').style.display = 'block';
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+
+</body>
+
+</html>
